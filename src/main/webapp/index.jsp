@@ -1,5 +1,8 @@
 <html>
     <body>
-        <h2>Hello Heroku!</h2>
+<form method="post" action="hello">
+  <input type="text" name="textname">
+    <input type="submit">
+</form>
     </body>
 </html>
