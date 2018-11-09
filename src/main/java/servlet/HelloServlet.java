@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
       String name = req.getParameter("textname");
       req.setAttribute("username",name);
-      RequestDispatcher rd = req.getRequestDispatcher("welcome.jsp");
+      RequestDispatcher rd = req.getRequestDispatcher("hello.jsp");
       rd.forward(req,resp);
     }
 

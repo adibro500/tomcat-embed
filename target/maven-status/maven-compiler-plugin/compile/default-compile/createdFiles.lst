@@ -1,2 +1,3 @@
 launch\Main.class
 servlet\HelloServlet.class
+com\test\HelloWorld.class
